@@ -7,4 +7,12 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 3);
     }
+    
+    static testMethod void threeTimesThreeIsNine() {
+        // Act
+        Integer result = Calculator.Multiply(3, 3);
+        
+        // Assert
+        System.assertEquals(result, 9);
+    }
 }
