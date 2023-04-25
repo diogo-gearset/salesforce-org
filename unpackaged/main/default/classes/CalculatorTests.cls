@@ -5,6 +5,6 @@ public class CalculatorTests {
         Integer result = Calculator.Sum(1, 2);
         
         // Assert
-        System.assertEquals(result, 4);
+        System.assertEquals(result, 3);
     }
 }
