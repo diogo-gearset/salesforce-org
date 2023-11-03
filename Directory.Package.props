@@ -1,5 +1,5 @@
 <Project>
   <ItemGroup>
-    <PackageVersion Include="PuppeteerSharp" Version="8.0.0" />
+    <PackageVersion Include="PuppeteerSharp" Version="9.0.0" />
   </ItemGroup>
 </Project>
