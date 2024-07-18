@@ -1,6 +1,6 @@
 @isTest
 public class CalculatorVerifier {
-    static testMethod void fivPlusFiveIsTen() {
+    static testMethod void fivePlusFiveIsTen() {
         // Act
         Integer result = Calculator.Sum(2000, 2000);
         
