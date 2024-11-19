@@ -7,4 +7,12 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 3);
     }
+    
+    static testMethod void threeMinusOneIsTwo() {
+        // Act
+        Integer result = Calculator.Subtract(3, 1);
+        
+        // Assert
+        System.assertEquals(result, 2);
+    }
 }
