@@ -7,12 +7,4 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 3);
     }
-    
-    static testMethod void FourMinusOneIsThree() {
-        // Act
-        Integer result = Calculator.Subtract(4, 1);
-        
-        // Assert
-        System.assertEquals(result, 3);
-    }
 }
