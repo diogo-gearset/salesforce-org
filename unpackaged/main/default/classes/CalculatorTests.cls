@@ -8,11 +8,11 @@ public class CalculatorTests {
         System.assertEquals(result, 3);
     }
     
-    static testMethod void threeMinusOneIsTwo() {
+    static testMethod void FourMinusOneIsThree() {
         // Act
-        Integer result = Calculator.Subtract(3, 1);
+        Integer result = Calculator.Subtract(4, 1);
         
         // Assert
-        System.assertEquals(result, 2);
+        System.assertEquals(result, 3);
     }
 }
