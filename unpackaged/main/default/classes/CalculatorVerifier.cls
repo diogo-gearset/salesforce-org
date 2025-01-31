@@ -2,9 +2,9 @@
 public class CalculatorVerifier {
     static testMethod void fivPlusFiveIsTen() {
         // Act
-        Integer result = Calculator.Sum(2000, 2000);
+        Integer result = Calculator.Sum(5, 5);
         
         // Assert
-        System.assertEquals(result, 4000);
+        System.assertEquals(result, 10);
     }
 }
