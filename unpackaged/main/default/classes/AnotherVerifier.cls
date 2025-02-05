@@ -4,4 +4,9 @@ public class AnotherVerifier {
         // Assert
         System.assertEquals(true, true);
     }
+    
+    static testMethod void FalseEqualsFalse() {       
+        // Assert
+        System.assertEquals(false, false);
+    }
 }
