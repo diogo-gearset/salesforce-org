@@ -1,10 +1,10 @@
 @isTest
 public class UncoveredCalculatorTests {
-	static testMethod void fourMinusTwoIsTwo() {
+	static testMethod void fourMinusOneIsThree() {
         // Act
-        Integer result = UncoveredCalculator.subtraction(4, 2);
+        Integer result = UncoveredCalculator.subtraction(4, 1);
         
         // Assert
-        System.assertEquals(result, 2);
+        System.assertEquals(result, 3);
     }
 }
