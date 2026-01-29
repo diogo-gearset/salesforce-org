@@ -7,4 +7,12 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 3);
     }
+
+    static testMethod void onePlusTenIsEleven() {
+        // Act
+        Integer result = Calculator.Sum(10, 1);
+        
+        // Assert
+        System.assertEquals(result, 11);
+    }
 }
