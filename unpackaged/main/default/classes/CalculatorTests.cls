@@ -7,4 +7,12 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 3);
     }
+
+    static testMethod void twoPlusTwoIsFour() {
+        // Act
+        Integer result = Calculator.Sum(2, 2);
+        
+        // Assert
+        System.assertEquals(result, 4);
+    }
 }
