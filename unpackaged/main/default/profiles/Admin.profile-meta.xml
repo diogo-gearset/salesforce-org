@@ -3,6 +3,16 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Email_template_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AppointmentInvitation.AppointmentTopicId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1134,6 +1144,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.WhoId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TestADO__c.AutoNumberTest2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TestADO__c.AutoNumberTest__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4678,6 +4698,10 @@
         <name>WorkCalibrationUser</name>
     </userPermissions>
     <classAccesses>
+        <apexClass>AnotherVerifier</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Calculator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4687,6 +4711,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CalculatorVerifier</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmailTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UncoveredCalculator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UncoveredCalculatorTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
 </Profile>

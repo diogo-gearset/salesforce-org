@@ -1,10 +1,10 @@
 @isTest
 public class CalculatorVerifier {
-    static testMethod void fivPlusFiveIsTen() {
+    static testMethod void fivePlusFiveIsTen() {
         // Act
-        Integer result = Calculator.Sum(6, 6);
+        Integer result = Calculator.Sum(5, 5);
         
         // Assert
-        System.assertEquals(result, 12);
+        System.assertEquals(result, 10);
     }
 }
