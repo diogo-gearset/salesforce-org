@@ -15,4 +15,12 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 4);
     }
+
+    static testMethod void tenPlusTenIsTwenty() {
+        // Act
+        Integer result = Calculator.Sum(10, 10);
+        
+        // Assert
+        System.assertEquals(result, 20);
+    }
 }
