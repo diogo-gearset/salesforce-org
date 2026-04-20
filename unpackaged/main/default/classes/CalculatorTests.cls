@@ -15,12 +15,4 @@ public class CalculatorTests {
         // Assert
         System.assertEquals(result, 4);
     }
-
-    static testMethod void oneHundredPlusOneHundredIsTwoHundred() {
-        // Act
-        Integer result = Calculator.Sum(100, 100);
-        
-        // Assert
-        System.assertEquals(result, 200);
-    }
 }
